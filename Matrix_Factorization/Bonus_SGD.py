@@ -126,7 +126,3 @@ print ( "RMSE = " ,RMSE)
 print ("***********************************")
 
 
-del(testing_matrix)
-del(training_matrix)
-del(new_P)
-del(new_Q)
