@@ -186,10 +186,4 @@ print ("***********************************")
 
                                                                                                                                        
 
-del(testing_matrix)
-del(training_matrix)
-del(transpose_matrix)
-del(P)
-del(Q)
-del(nonzero_R)
-del(nonzero_T)
+
