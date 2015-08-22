@@ -147,7 +147,7 @@ def Q_update_notPurchased(x4,y4,z4):
     qj_final_part = alpha * qj_temp_term 
     return np.subtract(Q[z4],qj_final_part)    
     
-sample ='D:\\MS(CIS)\\Sem2\\RS\\Assignment\\RS_Assignment3\\samples_ml100k_0.02_0.005_0.005_0.005_k25.txt'    
+sample ='samples_ml100k_0.02_0.005_0.005_0.005_k25.txt'    
 
 ns = 0
 with open(sample) as f:  
