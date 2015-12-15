@@ -168,7 +168,4 @@ with open(sample) as f:
        print(" K =", K," Alpha =", alpha,"Lambda u =", lambdau,"Lambda i = ", lambdai," Lambda j =", lambdaj,"HR =",float("{0:.4f}".format(hit_calc.HR)), " AHR =", float("{0:.4f}".format(hit_calc.AHR)),"Learning time = ", float("{0:.4f}".format(stop-start)))
   
       
-del(training_matrix)
-del(hit_calc)
-del(hit_calc_old)
-del(rating_one)
+
